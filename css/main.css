@@ -1,0 +1,221 @@
+/************
+GENERAL
+************/
+
+* {
+  font-family: 'Dosis', sans-serif;
+  color: #CCC9A2;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.body-divs { /* all the divs */
+  height: 700px;
+}
+
+body {
+  margin: 0;
+
+}
+img {
+  max-width: 100%;
+}
+
+
+
+/************
+HEADING
+************/
+#top {
+  background-color: #B2A709;
+}
+
+#top p {
+  float: left;
+  margin: 2.5%;
+}
+
+#top nav {
+  float: right;
+
+}
+
+header {
+  padding-top: 0%;
+  font-family: 'Dosis', sans-serif;
+  float:left;
+  margin:0 0 30px 0;
+  padding:5% 0 0 0;
+  width:100%;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5em;
+
+}
+
+header nav {
+  font-size: 0.5em;
+}
+
+.main-header {
+  font-size: 1em;
+}
+
+
+
+
+header p span{
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  margin: 5%;
+  border: #00BFFF solid 1px;
+}
+
+.three-words {
+  padding: 2% 0 2% 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 0.1em;
+  letter-spacing: 0.75em;
+
+}
+
+
+/************
+NAVIGATION
+************/
+
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style:none;
+  margin:0 10px;
+  padding:0;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  padding:15px 10px;
+}
+
+/************
+PORTRAIT IMG
+************/
+
+.img-round  {
+  border: #00BFFF solid 3px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+
+}
+
+.div-img {
+    margin-top: 10%;
+    padding-top: 5%;
+    float:none;
+    position:relative;
+}
+
+/************
+GALLERY
+************/
+.gallery {
+  margin: 0;
+  padding: 2.5%;
+  list-style: none;
+}
+
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin:2.5%;
+
+}
+
+
+
+
+#div-p-2 {
+  border-style: solid;
+  border-width: 1px 0 1px 0 ;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  float:left;
+  padding: 1.5% 0% 1.5% 1%;
+  width: 300px;
+  text-align: left;
+  border-color: #00BFFF
+
+}
+
+
+/************
+BODY BACKGROUNDS
+************/
+
+header {
+  /*background: url('http://joelswensen.com/img/bug-2-2.jpg') no-repeat center center fixed;*/
+  background-color: #128AB2;
+  background-size: cover;
+}
+
+
+#div1 {
+  /*background: url('http://joelswensen.com/img/squares-shadows.jpg') no-repeat center center fixed;*/
+  background-color: white;
+  background-size: cover;
+  padding: 0;
+}
+
+
+#div2 {
+  /*background: url('http://joelswensen.com/img/bubbles-shadows.jpg') no-repeat center center fixed;*/
+  background-color: #FF1954;
+  background-size: cover;
+  padding: 0;
+  /*height: 1250px;*/
+}
+
+
+/************
+FOOTER
+************/
+
+footer {
+  font-size: 1em;
+  text-align:center;
+  clear:both;
+  padding-top: 50px;
+  background-color: #B2A709;
+  margin: 0;
+}
+
+footer a {
+  margin: 0 1.75% 0 1.75%;
+}
+
+footer p {
+  margin: 0;
+  padding: 2.5%;
+}
+
+.social-icon {
+  width:200px;
+  height:20px;
+  margin-bottom: 2.5%;
+}

@@ -1,0 +1,40 @@
+@media screen and (min-width: 480px) {
+
+* {
+  font-size: 1.1em;
+}
+
+.div-img{
+  margin-left: 2.5%;
+}
+
+.main-header {
+  font-size: 2.5em;
+}
+
+/*-----------------
+Two Column Layout
+------------------*/
+#primary {
+  width: 50%;
+  float: left;
+}
+
+#secondary {
+  width: 40%;
+  float:right;
+}
+
+.gallery li {
+  width: 28.3333%;
+}
+
+#gallery li:nth-child(4n) {
+clear: left;
+}
+
+}
+
+@media screen and (min-width: 660px) {
+
+}
