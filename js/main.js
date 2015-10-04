@@ -4,6 +4,6 @@ $( document ).ready(function() {
     $('#fref2').hide().fadeIn(2500);
     $('#fref3').hide().fadeIn(2000);
     $('#fref4').hide().fadeIn(1500);
-    $('.three-words').hide().fadeIn(6000);
+    $('.three-words').hide().fadeIn(4000);
 
 });

@@ -13,6 +13,7 @@ GENERAL
 
 .body-divs { /* all the divs */
   height: 700px;
+  clear: both;
 }
 
 body {
@@ -75,12 +76,12 @@ header p span{
 }
 
 .three-words {
-  padding: 2% 0 2% 0;
-  margin: 0;
+  padding: 2.5% 0 5% 0;
+  margin: 0 auto;
   text-transform: uppercase;
   text-decoration: underline;
-  font-size: 0.1em;
-  letter-spacing: 0.75em;
+  font-size: .5em;
+  letter-spacing: 1em;
 
 }
 
@@ -159,7 +160,8 @@ GALLERY
   padding: 1.5% 0% 1.5% 1%;
   width: 300px;
   text-align: left;
-  border-color: #00BFFF
+  border-color: #00BFFF;
+  clear: both;
 
 }
 
@@ -180,6 +182,7 @@ header {
   background-color: white;
   background-size: cover;
   padding: 0;
+
 }
 
 
@@ -203,6 +206,7 @@ footer {
   padding-top: 50px;
   background-color: #B2A709;
   margin: 0;
+  height: 700px;
 }
 
 footer a {
@@ -218,4 +222,9 @@ footer p {
   width:200px;
   height:20px;
   margin-bottom: 2.5%;
+}
+
+#copy-write {
+  margin: 0;
+  padding: 50% 0 0 0;
 }
